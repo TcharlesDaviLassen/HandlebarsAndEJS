@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Handlebars Example</title>
+</head>
+
+<body>
+  <h1>Hello {{data.name}}!</h1>
+
+  <p>You are {{data.age}} years old and your hobbies are:</p>
+
+  <ul>
+    {{#each data.hobbies}}
+    <li>{{this}}</li>
+    {{/each}}
+  </ul>
+
+  <p>Your address is:</p>
+
+  <p>{{data.address.street}}, {{data.address.city}}, {{data.address.state}} {{data.address.zip}}</p>
+</body>
+
+</html>

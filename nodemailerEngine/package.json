@@ -1,0 +1,20 @@
+{
+  "name": "nodemailerengine",
+  "version": "1.0.0",
+  "description": "Para montar uma API completa com template engine e nodemailer, é necessário seguir alguns passos:",
+  "main": "indes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "fs-extra": "^11.1.1",
+    "handlebars": "^4.7.7",
+    "nodemailer": "^6.9.1"
+  }
+}
